@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    height: 100%;
+}
+
+p{
+    margin-top:15px;
+}
+p, h2{
+    line-height: 40px;
+}
+h1{
+    line-height: 80px;
+    font-size: 4rem;
+}
+.background--1{
+    background-image: url(bg.jpg);
+    min-height: 100%;
+}
+.background--2{
+    background-image: url(bg2.jpg);
+    min-height: 80%;
+}
+.background--3{
+    background-image: url(bg3.jpg);
+    min-height: 80%;
+}
+.background--4{
+    background-image: url(bg4.jpg);
+    min-height: 80%;
+}
+
+.background--1,
+.background--2,
+.background--3,
+.background--4{
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: .5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+#big-text{
+    padding: 1.5rem;
+    background-color: black;
+    color: #fff;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    letter-spacing: .5rem;
+    outline: 32px solid rgb(88, 8, 88);
+    outline-offset: 14px;
+    outline-style:groove;
+}
+#small-text{
+    padding: 1.5rem;
+    background-color: black;
+    color: #fff;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    letter-spacing: .5rem;
+    outline: 32px solid rgb(88, 8, 88);
+    outline-offset: 14px;
+    outline-style:groove;
+}
+div{
+    padding: 5rem;
+    text-align: center;
+}
+.paragraph-1{
+    background-color:hsla(0,0%, 50%, .5);
+    color: #666666;
+}
+.paragraph-2{
+    background-color:hsla(0,0%, 50%, .5);
+    color: #dddddd;
+}
+.paragraph-3{
+    background-color:hsla(0,0%, 50%, .5);
+    color: #666666;
+}
+.paragraph-4{
+    background-color:hsla(0,0%, 50%, .5);
+    color: #dddddd;
+}
+
+.clarusway-logo{
+    width:30%;
+}
